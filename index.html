@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/logo.png"
+    />
+
+    <title>Rec Landing Page</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="jab">Recruitment</span> <span class="logo-dot">.</span><span class="tv">TV</span>
+          <span class="logo-dot" href="assets/icons/logo.png"></span>
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stars" class="nav-link" id="nav-link">Clients</a>
+        </li>
+        <li class="nav-item">
+          <a href="#stakeholders" class="nav-link" id="nav-link"
+            >stakeholders</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <div class="intro-text">
+        <h1>
+          <span class="hear"> Hiring Problems ? </span> <br />
+          <span class="connecting"> We got you covered</span>
+        </h1>
+        <p>
+          An online streaming platform for boxing matches <br />
+          We also dedicate some special time to throwbacks cuz old is gold
+        </p>
+        <a class="btn red" href="#about" >Learn More</a>
+        <a class="btn blue" href="#sub" >Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe controls loop id="video" autoplay allowfullscreen loop="1"
+          width="560"
+          height="315"
+          src="/assets/pexels-c-technical-5971459 (2160p).mp4"
+          title="YouTube video player"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="product-card-container">
+        <div class="product-card">
+          <img src="assets/images/speadsheet.jpg" alt="Product Image">
+          <h2 class="product-name">Sample Product</h2>
+          <p class="product-description">This is a sample product description.</p>
+          <p class="product-price">$19.99</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/speadsheet.jpg" alt="Product Image">
+          <h2 class="product-name">Sample Product</h2>
+          <p class="product-description">This is a sample product description.</p>
+          <p class="product-price">$19.99</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/speadsheet.jpg" alt="Product Image">
+          <h2 class="product-name">Sample Product</h2>
+          <p class="product-description">This is a sample product description.</p>
+          <p class="product-price">$19.99</p>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/speadsheet.jpg" alt="Product Image">
+          <h2 class="product-name">Sample Product</h2>
+          <p class="product-description">This is a sample product description.</p>
+          <p class="product-price">$19.99</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <h3 class="head">Our Clients</h3>
+      <div class="stars-gallery">
+        <a href="https://www.amazon.com/" class="big">
+          <img
+            src="assets/images/icons8-amazon.svg"
+            alt="Amazon"
+            title="Amazon"
+          />
+        </a>
+
+        <a href="https://le-meridien.marriott.com/" class="big">
+          <img
+            src="assets/images/lemeriden.jpg"
+            alt="Le Meridien"
+            title="Le Meridien"
+          />
+        </a>
+
+        <a href="https://www.salesforce.com/in/" class="big">
+          <img
+            src="assets/images/icons8-salesforce.svg"
+            alt="Salesforce"
+            title="Salesforce"
+          />
+        </a>
+
+        <a href="https://www.apple.com/in/?afid=p238%7CsdUuvv563-dc_mtid_187079nc38483_pcrid_664737674870_pgrid_109516736379_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-" class="big">
+          <img
+            src="assets/images/icons8-apple.svg"
+            alt="apple"
+            title="apple"
+          />
+        </a>
+
+        <a href="https://www.adidas-group.com/en/" class="big"
+          ><img
+            src="assets/images/icons8-adidas.svg"
+            alt="adidas"
+            title="adidas"
+          />
+        </a>
+
+        <a href="https://www.nvidia.com/en-in/" class="big">
+          <img
+            src="assets/images/icons8-nvidia.svg"
+            alt="Nvidia"
+            title="Nvidia"
+          />
+        </a>
+        <a href="https://www.gucci.com/us/en/" class="big"
+          ><img
+            src="assets/images/icons8-gucci.svg"
+            alt="Gucci"
+            title="Gucci"
+          />
+        </a>
+        <a href="http://www.disney.in/" class="big"
+          ><img
+            src="assets/images/icons8-disney.svg"
+            alt="disney"
+            title="disney"
+          />
+        </a>
+        <a href="https://www.coca-colacompany.com/" class="big"
+          ><img
+            src="assets/images/icons8-coca-cola.svg"
+            alt="coca cola"
+            title="coca cola"
+          />
+        </a>
+        <a href="https://www.americanexpress.com/en-in/" class="big"
+          ><img
+            src="assets/images/icons8-american-express.svg"
+            alt="AMEX"
+            title="AMEX"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Jab TV Stakeholders -->
+    <section class="people" id="stakeholders">
+      <div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/john.jpg" alt="John Doe" />
+            <p class="name">John Doe</p>
+            <p class="role">Founder</p>
+          </div>
+          <div class="person-2">
+            <img src="assets/images/jane.jpg" alt="Jane Doe" />
+            <p class="name">Jane Doe</p>
+            <p class="role">MD</p>
+          </div>
+          <div class="person-3">
+            <img src="assets/images/jnr.jpg" alt="John Doe Jnr" />
+            <p class="name">John Doe JNR</p>
+            <p class="role">Head Analyst</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy;2020. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
