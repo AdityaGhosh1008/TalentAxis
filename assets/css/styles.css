@@ -229,11 +229,13 @@ ul {
 .red {
   background-color: var(--secondary-color);
   margin-right: 1.5rem;
+  color: var(--primary-color);
 }
 
 .red:hover {
   background-color: #f1262d;
   color: #fff;
+  transform: scale(1.5);
 }
 
 .blue {
@@ -241,8 +243,9 @@ ul {
 }
 
 .blue:hover {
-  background-color: #095cf7;
-  color: #fff;
+  background-color:var(--primary-color);
+  color: var(--secondary-color);
+  transform: scale(1.5);
 }
 
 
