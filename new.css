@@ -6,7 +6,7 @@ body {
 
 
 header {
-    background-color: #228B22;
+    background-color: #7c73c0;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header nav a {
 }
 
 .apply-btn {
-    background-color: #228B22;
+    background-color: #7c73c0;
     color: white;
     border: none;
     padding: 8px 15px;
@@ -51,7 +51,7 @@ th, td {
 }
 
 th {
-    background-color: #228B22;
+    background-color: #7c73c0;
     color: white;
 }
 
@@ -71,7 +71,7 @@ th {
 }
 
 footer {
-    background-color: #228B22;
+    background-color: #7c73c0;
     padding: 10px;
     display: flex;
     justify-content: space-between;
