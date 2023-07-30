@@ -1,52 +1,94 @@
 body {
-    background: aliceblue;
-}
-.carousel{
-    height: 100vh;
-    perspective: 250px;
-}
-.carousel .carousel-item{
-    width: 450px;
-}
-.card {
-	position: relative;
-	margin: .5rem 0 1rem 0;
-	background-color: #fff;
-	width: 450px;
-	height: 379px;
-	color: #262626;
-	border-radius: 100px;
-	box-shadow: 0 8px 20px 0px rgba(0,0,0,0.2);
-}
-.img-area img {
-	border-radius: 50%;
-	border: 7px solid #fff;
-	margin-top: -80px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.box1 {
-	background: #005bae;
-	height: 120px;
-	border-radius: 25px 25px 0 0;
-}
-.img-area {
-  text-align: center;
-}
-.img-area img {
-  width: 30%;
-}
-.main-text {
-	padding: 8px 0;
-	text-align: center;
-}
-.main-text h2 {
-	font-weight: 900;
-	font-size: 20px;
-	margin: 0 0 20px;
-	font-family: 'Alfa Slab One', cursive;
+
+header {
+    background-color: #228B22;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.main-text p{
-  font-size: 16px;
-  padding: 0 35px;
+header .logo {
+    font-size: 24px;
+    color: white;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.apply-btn {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #D3D3D3;
+	color: gray;
+}
+
+th {
+    background-color: #228B22;
+    color: white;
+}
+
+
+
+.search-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput {
+    padding: 8px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    width: 300px;
+}
+
+footer {
+    background-color: #228B22;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-icons {
+    /* Add styles for social media icons */
 }

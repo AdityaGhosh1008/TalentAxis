@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/logo.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/logo.png"
+    />
+
+    <title>Recruitment.TV</title>
+    <script src="/smtp.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="logo">
+        <h1>
+          <span class="jab" href="">Recruitment</span> <span class="logo-dot">.</span><span class="tv">TV</span>
+          <span class="logo-dot" href="assets/icons/logo.png"></span>
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="index.html#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link" id="nav-link">Home</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search jobs...">
+        </div>
+        <table id="jobTable">
+            <tr>
+                <th>Job Title</th>
+                <th>Company</th>
+                <th>Location</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Web Developer</td>
+                <td>ABC Corp</td>
+                <td>New York</td>
+                <td><button class="apply-btn" onclick="hidetext1()">Apply Now</button></td>
+            </tr>
+            <tr>
+                <td>Graphic Designer</td>
+                <td>XYZ Studios</td>
+                <td>Los Angeles</td>
+                <td><button class="apply-btn" onclick="hidetext2()">Apply Now</button></td>
+            </tr>
+            <tr>
+                <td>Sales</td>
+                <td>PKC inc.</td>
+                <td>New Delhi</td>
+                <td><button class="apply-btn" onclick="hidetext3()">Apply Now</button></td>
+            </tr>
+            <tr>
+                <td>VP of Design</td>
+                <td>Design ventures</td>
+                <td>Mumbai</td>
+                <td><button class="apply-btn" onclick="hidetext4()">Apply Now</button></td>
+            </tr>
+            <tr>
+                <td>HR manager</td>
+                <td>JCC cement</td>
+                <td>Gurugram</td>
+                <td><button class="apply-btn" onclick="hidetext5()">Apply Now</button></td>
+            </tr>
+            <!-- Add more job listings here -->
+        </table>
+        <script src="new.js"></script>
+    </section>
+    <link rel="stylesheet" href="new.css">
+    <script src="mail.js"></script>
+
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy;2023. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
