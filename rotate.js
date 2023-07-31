@@ -15,36 +15,36 @@ let people = [
 		photo:
 			'url("https://cdn.pixabay.com/photo/2018/03/06/22/57/portrait-3204843_960_720.jpg")',
 		name: "Susan Smith",
-		profession: "WEB DEVELOPER",
+		profession: "Web Developer",
 		description:
-			"Cheese and biscuits chalk and cheese fromage frais. Cheeseburger caerphilly cheese slices chalk and cheese cheeseburger mascarpone danish fontina rubber cheese. Squirty cheese say cheese manchego jarlsberg lancashire taleggio cheese and wine squirty cheese. Babybel pecorino feta macaroni cheese brie queso everyone loves gouda. Cheese and biscuits camembert de normandie fromage fromage macaroni cheese"
+			"Talent.Axis has been a game-changer for my career as a web developer. Their Ascent Catalysts programme helped me discover the perfect job opportunity that aligned with my skills and aspirations. The guidance and support provided by their team throughout the process were exceptional.Their strategic talent acquisition service showcased their expertise in identifying top-tier clients, and I'm grateful to have worked on exciting projects through Talent.Axis. The flexibility they offered with employment options allowed me to seamlessly integrate with my client's team."
 	},
 
 	{
 		photo:
 			"url('https://cdn.pixabay.com/photo/2019/02/11/20/20/woman-3990680_960_720.jpg')",
 		name: "Anna Grey",
-		profession: "UFC FIGHTER",
+		profession: "HR Manager",
 		description:
-			"I'm baby migas cornhole hell of etsy tofu, pickled af cardigan pabst. Man braid deep v pour-over, blue bottle art party thundercats vape. Yr waistcoat whatever yuccie, farm-to-table next level PBR&B. Banh mi pinterest palo santo, aesthetic chambray leggings activated charcoal cred hammock kitsch humblebrag typewriter neutra knausgaard. Pabst succulents lo-fi microdosing portland gastropub Banh mi pinterest palo santo"
+			"Working with Talent.Axis has been an absolute game-changer for our company's HR needs. As an HR manager, I needed to find top-notch talent swiftly, and Talent.Axis delivered exceptional results beyond my expectations. Their strategic talent acquisition service connected us with remarkable candidates who were a perfect fit for our organization's culture and requirements.Moreover, Talent.Axis's tailored HR consultation has been instrumental in optimizing our HR processes, improving employee engagement, and fostering a high-performing workforce. Their expert guidance has truly elevated our human resources practices."
 	},
 
 	{
 		photo:
 			"url('https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_960_720.jpg')",
 		name: "Branson Cook",
-		profession: "ACTOR",
+		profession: "Sales Associate",
 		description:
-			"Radio telescope something incredible is waiting to be known billions upon billions Jean-François Champollion hearts of the stars tingling of the spine. Encyclopaedia galactica not a sunrise but a galaxyrise concept of the number one encyclopaedia galactica from which we spring bits of moving fluff. Vastness is bearable only through love paroxysm of global death concept"
+		"I owe my dream job to Talent Axis HR! Their unwavering commitment to matching the right talent with the right opportunities is commendable. They guided me throughout the process, making it seamless and stress-free. I am truly grateful for their expertise and support in helping me secure this amazing opportunity!"
 	},
 
 	{
 		photo:
 			"url('https://cdn.pixabay.com/photo/2014/10/30/17/32/boy-509488_960_720.jpg')",
 		name: "Julius Grohn",
-		profession: "PROFESSIONAL CHILD",
+		profession: "Marketing Manager",
 		description:
-			"Biscuit chocolate pastry topping lollipop pie. Sugar plum brownie halvah dessert tiramisu tiramisu gummi bears icing cookie. Gummies gummi bears pie apple pie sugar plum jujubes. Oat cake croissant bear claw tootsie roll caramels. Powder ice cream caramels candy tiramisu shortbread macaroon chocolate bar. Sugar plum jelly-o chocolate dragée tart chocolate marzipan cupcake gingerbread."
+			"Talent.Axis's Flexible Workforce Option has revolutionized our marketing efforts. As a Marketing Manager, I needed skilled marketers on-demand for campaigns. Talent.Axis seamlessly integrated experienced professionals with our team. Their agile workforce solution saved us time and improved campaign quality. Scaling up or down as needed was invaluable. I highly recommend Talent.Axis to any marketing department seeking flexible staffing solutions that deliver top-notch talent and streamline campaign execution"
 	}
 ];
 
