@@ -603,7 +603,7 @@ form {
 
 .submit-btn {
   background-color: var(--primary-color);
-  color: #a29090;
+  color: #fff;
   padding: 0.3rem;
   margin: 0 0.5rem;
   border: none;
