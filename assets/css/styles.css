@@ -14,6 +14,7 @@
 /* Smooth scroll effect */
 html {
   scroll-behavior: smooth;
+  font-family: "Roboto", sans-serf;
 }
 
 /* Resets */
@@ -320,7 +321,7 @@ ul {
 /* Image gallery starts */
 .head {
   text-align: center;
-  font: 2em sans-serif;
+  font: 2em "Roboto", sans-serif;
   margin: 2rem 0;
 }
 .stars-gallery {
@@ -402,7 +403,7 @@ h1 {
 #imgDiv::after {
 	content: "''";
 	font-size: calc(2rem + 2vmin);
-	font-family: sans-serif;
+	font-family: roboto,"sans-serif";
 	line-height: 150%;
 	color: #a29090;
 	display: grid;
