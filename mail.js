@@ -20,7 +20,7 @@ function hidetext3() {
     }
 }
 function hidetext4() {
-    const redirectConfirmation = confirm("Do you want apply for HR Bussiness Partner at Coca Cola?");
+    const redirectConfirmation = confirm("Do you want apply for HR Business Partner at Coca Cola?");
 
     if (redirectConfirmation) {
         window.location.href = "https://forms.gle/nXqNUxtKBap6t77UA";
