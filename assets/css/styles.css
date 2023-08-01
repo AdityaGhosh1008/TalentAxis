@@ -269,18 +269,11 @@ ul {
   margin-bottom: -20px;
 }
 
-.about p {
-  font-size: 1.5em;
-}
 
-.about h3 {
-  text-shadow: 2px 2px 2px #333;
-}
 
-.about p {
-  text-shadow: 2px 2px 2px #333;
-  font-size: 1.8rem;
-}
+
+
+
 .product-card-container {
   display: flex;
   font-size: small;
@@ -292,7 +285,7 @@ ul {
   background-color: var(--secondary-color);
   border-radius: 8px;
   max-width: 300px;
-  margin: 0 auto;
+  margin: 5px;
   padding: 20px;
 }
 
@@ -314,8 +307,7 @@ ul {
 
 .product-description {
   color: var(--primary-color);
-  font-size: smaller;
-  text-shadow: none;
+  font-size: 24px;
 }
 
 .product-price {
