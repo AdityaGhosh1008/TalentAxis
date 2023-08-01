@@ -41,7 +41,7 @@ function hidetext6() {
     }
 }
 function hidetext7() {
-    const redirectConfirmation = confirm("Do you want apply for Bussiness Development Associate at Meesho?");
+    const redirectConfirmation = confirm("Do you want apply for Business Development Associate at Meesho?");
 
     if (redirectConfirmation) {
         window.location.href = "https://forms.gle/vYsraoGDjK5j6KjNA";
